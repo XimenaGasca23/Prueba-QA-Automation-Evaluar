@@ -1,0 +1,25 @@
+{
+  "name": "Prueba-QA-Automation-Evaluar",
+  "version": "1.0.0",
+  "description": "Prueba Tecnica QA Automation - Evaluar",
+  "license": "ISC",
+  "author": "Ximena Diaz Gasca",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run --reporter mochawesome"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/node": "^25.5.0",
+    "cypress": "^15.12.0"
+  }
+}
